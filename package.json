@@ -1,0 +1,27 @@
+{
+    "name": "0scrape",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node src/index.js --website=https://google.com",
+        "watch": "tailwindcss -i ./src/**/styles.css -o ./dist/**/output.css --watch",
+        "build": "tailwindcss -i ./src/**/styles.css -o ./dist/**/output.css --minify",
+        "print": "zip -r ./website.zip ./dist/** && mv ./website.zip ../0Press/src/website.zip && cd ../0Press && yarn build && npm run print"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "autoprefixer": "^10.4.20",
+        "cross-env": "^7.0.3",
+        "postcss": "^8.4.47",
+        "tailwindcss": "^3.4.14"
+    },
+    "dependencies": {
+        "puppeteer": "^23.7.1",
+        "puppeteer-core": "^23.7.1",
+        "yargs": "^17.7.2"
+    }
+}

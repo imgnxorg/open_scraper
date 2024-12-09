@@ -1,0 +1,21 @@
+dist/
+
+WSL
+WSL**
+WSL/**
+ansi-84.md
+wsl-ngrok-server.txt
+netsh interface portproxy add v4tov.txt
+private_notes
+private**
+private/**
+env**
+venv**
+home**
+Desktop/**
+.env**
+.private**
+.private/**
+.cache_ggshield
+.cache_ggshield**
+.cache_ggshield/**
